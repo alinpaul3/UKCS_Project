@@ -83,7 +83,6 @@ const cors = require("cors");
 require("dotenv").config();
 
 const app = express();
-const cors = require("cors");
 app.use(cors({ origin: ["https://ukcs.netlify.app/",], methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,}));
 app.use(express.json());
