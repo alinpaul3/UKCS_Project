@@ -84,7 +84,8 @@ require("dotenv").config();
 
 const app = express();
 const cors = require("cors");
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: ["https://ukcs.netlify.app/",], methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,}));
 app.use(express.json());
 
 const SHEET_ID = process.env.SPREADSHEET_ID; // Google Sheet ID
