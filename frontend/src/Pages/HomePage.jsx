@@ -34,6 +34,12 @@ function HomePage() {
 
   return (
     <div className="homepage">
+      <header className="header">
+        <div className="logo-container">
+          <img src="/ukcs-logo.png" alt="UKCS Logo" className="ukcs-logo" />
+          <h1 className="brand-name">UKCS Portal</h1>
+        </div>
+      </header>
 
       <main className="center-box">
         <div className="content">
