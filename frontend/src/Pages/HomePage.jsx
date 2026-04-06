@@ -37,7 +37,7 @@ function HomePage() {
       <header className="header">
         <div className="logo-container">
           <img src="/ukcs-logo.png" alt="UKCS Logo" className="ukcs-logo" />
-          <h1 className="brand-name">UKCS Portal</h1> 
+          {/* <h1 className="brand-name">UKCS Portal</h1>  */}
         </div>
       </header>
 
